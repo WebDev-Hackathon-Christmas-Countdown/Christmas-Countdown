@@ -26,9 +26,6 @@ function WindowCard(props) {
 
   return (
     <div className="window_container" style={{ gridArea: grid }}>
-      {/* <div className="number_day_container">
-        <div className="number_day">{window.id}</div>
-      </div> */}
       <div className="window" style={styleWindow} onClick={toggleOpen} />
       <div
         className="back_window"

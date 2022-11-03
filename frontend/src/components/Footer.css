@@ -1,7 +1,7 @@
 .footer-all {
-  width: 100%;
-  height: 80px;
-  position: fixed;
+  width: 1520px;
+  height: 60px;
+  margin-top: 4070px;
   bottom: 0;
   left: 0;
   display: flex;

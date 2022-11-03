@@ -34,23 +34,23 @@
 }
 
 .number_day_container {
-  position: absolute;
-  z-index: 3;
-  width: 100px;
-  height: 100px;
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 48px;
+  padding-left: 82px;
 }
 
 .number_day {
-  position: absolute;
   font-weight: 1000;
   font-size: 30px;
-  color: antiquewhite;
-  background-color: black;
-  border: 2px solid;
+  color: #f2e8cf;
+  background-color: #bc4749;
+  border: 3px solid;
   border-radius: 50%;
   height: 50px;
   width: 50px;
   text-align: center;
+  filter: drop-shadow(0 0 15px #ab9c13);
 }
 
 .snowflake {
