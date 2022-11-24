@@ -1,5 +1,12 @@
-import Calendar from "../components/Calendar";
+import React from "react";
+import CountDown from "../components/CountDown";
 
-export default function Home() {
-  return <Calendar />;
+function Home() {
+  return (
+    <div>
+      <CountDown />
+    </div>
+  );
 }
+
+export default Home;

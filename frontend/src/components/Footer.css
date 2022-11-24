@@ -1,3 +1,4 @@
-.footer {
-  height: 100px;
+.footer-all {
+  display: flex;
+  align-items: center;
 }
