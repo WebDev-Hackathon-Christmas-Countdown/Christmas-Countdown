@@ -14,8 +14,9 @@
     position: relative;
     width: 50%;
     min-height: 300px;
-    background-color: #bc4749;
+    background: linear-gradient(#bc4749 70%, #f2e8cf);
     border: 1px solid #999;
+    box-shadow: inset 0 -3px 8px #fff;
     border-radius: 10px;
     margin: 20px auto;
     padding: 20px;

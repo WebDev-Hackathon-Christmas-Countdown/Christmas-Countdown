@@ -1,11 +1,13 @@
 .footer-all {
     width: 100%;
+    height: 80px;
     position: fixed;
     bottom: 0;
     left: 0;
     display: flex;
     align-items: center;
     background-color: #bc4749;
+    box-shadow: 0 -4px 5px #bc4749, inset 0 4px 5px #bc4749, inset 0 -3px 8px #fff;
 }
 
 .footer-all .footer-div-1 {
@@ -13,10 +15,10 @@
 }
 .footer-all .footer-div-1 h2 {
     padding-left: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     text-align: center;
     color: #386641;
-    text-shadow: 0 0 3px #F2E8CF;
+    text-shadow: 0 0 3px #fff;
 }
 .footer-all .footer-div-2 {
     width: 30%;
@@ -27,7 +29,7 @@
     color: #A7C957;
     text-shadow: 0 0 2px #386641;
     width: 30%;
-    font-size: 1.5rem;
+    font-size: 1.1rem;
 }
 .footer-all .footer-div-3 {
     text-align: end;
