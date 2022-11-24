@@ -1,36 +1,25 @@
-import Counter from "../components/Counter";
-import logo from "../assets/logo.svg";
+/* eslint-disable react/button-has-type */
+import React, { useState } from "react";
+import DailyCardPopUp from "../components/DailyCardPopUp";
+import Footer from "../components/Footer";
 
 export default function Home() {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggleOpen = () => {
+    setIsOpen(!isOpen);
+  };
+
   return (
     <header className="App-header">
-      <img src={logo} className="App-logo" alt="logo" />
-      <p>Hello Vite + React !</p>
-
-      <Counter />
-
-      <p>
-        Edit <code>App.jsx</code> and save to test HMR updates.
-      </p>
-      <p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-        {" | "}
-        <a
-          className="App-link"
-          href="https://vitejs.dev/guide/features.html"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Vite Docs
-        </a>
-      </p>
+      <button onClick={toggleOpen}> Click </button>
+      {isOpen && (
+        <DailyCardPopUp
+          handleClose={toggleOpen}
+          // props for the card from the data should go here in a propr=something
+        />
+      )}
+      <Footer />
     </header>
   );
 }
