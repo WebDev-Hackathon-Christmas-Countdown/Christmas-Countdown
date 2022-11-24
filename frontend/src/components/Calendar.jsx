@@ -8,31 +8,76 @@ function Calendar() {
     <div className="calendar">
       <Header className="header" />
       <div className="door-container">
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
-        <div className="door"> </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor">
+            <span>12</span>
+          </div>
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>{" "}
+        <div>
+          <div className="door" />
+          <div className="backdoor" />
+        </div>
       </div>
       <Footer />
     </div>
