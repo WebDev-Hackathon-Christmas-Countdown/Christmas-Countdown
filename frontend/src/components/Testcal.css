@@ -1,0 +1,10 @@
+.calendar {
+  width: 1520px;
+  height: 5120px;
+  background-image: url(../assets/christmas-windows.jpg);
+  background-size: contain;
+  display: grid;
+  grid-template-columns: 200px 200px 260px 200px 240px 200px;
+  /* grid-template-rows: 140px 300px 215px 295px 205px 295px 215px 300px 205px 295px 215px 295px 210px 295px 215px 295px 210px 295px 215px 295px; */
+  grid-template-rows: 140px 295px 220px 295px 205px 295px 215px 295px 210px 295px 215px 295px 210px 295px 215px 295px 210px 295px 215px 295px;
+}
