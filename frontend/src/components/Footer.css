@@ -1,5 +1,41 @@
 .footer-all {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
     display: flex;
     align-items: center;
+    background-color: #bc4749;
 }
 
+.footer-all .footer-div-1 {
+    width: 40%;
+}
+.footer-all .footer-div-1 h2 {
+    padding-left: 10px;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #386641;
+    text-shadow: 0 0 3px #F2E8CF;
+}
+.footer-all .footer-div-2 {
+    width: 30%;
+}
+.footer-all .footer-div-2 .links a {
+    padding-left: 30px;
+    text-decoration: none;
+    color: #A7C957;
+    text-shadow: 0 0 2px #386641;
+    width: 30%;
+    font-size: 1.5rem;
+}
+.footer-all .footer-div-3 {
+    text-align: end;
+    width: 30%;
+}
+
+.footer-all .footer-div-3 p {
+    padding-right: 15px;
+    color: white;
+    text-shadow: 0 0 2px #386641;
+}
