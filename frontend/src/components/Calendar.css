@@ -1,0 +1,28 @@
+.calendar {
+  background-color: #f2e8cf;
+}
+
+.door-container {
+  margin: 0 3vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-template-rows: repeat(5, auto);
+  gap: 20px;
+}
+
+.door {
+  background-image: url("../assets/door.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  min-height: 150px;
+
+  transform-origin: left;
+  /*Speed of the Door animation*/
+  transition: all 0.5s ease-in-out;
+}
+
+.door:hover {
+  /*prespectiv creates the door open effect*/
+  transform: perspective(1200px) rotateY(-55deg);
+}
