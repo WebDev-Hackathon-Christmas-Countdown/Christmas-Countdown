@@ -38,7 +38,6 @@
 
 .card-answer {
   padding: 15px 0;
-  transform: rotate(180deg);
   font-size: 1.5rem;
   color: #386641;
   filter: drop-shadow(1px 1px 5px white);

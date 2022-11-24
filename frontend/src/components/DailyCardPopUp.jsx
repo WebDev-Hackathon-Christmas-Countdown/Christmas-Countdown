@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/iframe-has-title */
 /* eslint-disable react/prop-types */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable react/button-has-type */
@@ -17,13 +18,11 @@ function DailyCardPopUp(props) {
         <div className="card-question">{door.question}</div>
         <div className="card-answer">{door.answer}</div>
         <iframe
-          title="title"
           width="400"
-          height="70"
+          height="80"
           scrolling="no"
-          frameBorder="no"
           allow="autoplay"
-          src={`${door.song}`}
+          src={door.song}
         />
       </div>
     </div>

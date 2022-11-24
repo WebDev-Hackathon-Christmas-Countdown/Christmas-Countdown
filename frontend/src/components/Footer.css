@@ -8,6 +8,7 @@
   align-items: center;
   background-color: #bc4749;
   box-shadow: 0 -4px 5px #bc4749, inset 0 4px 5px #bc4749, inset 0 -3px 8px #fff;
+  z-index: 2;
 }
 
 .footer-all .footer-div-1 {
