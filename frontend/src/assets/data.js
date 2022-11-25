@@ -108,7 +108,7 @@ const data = [
     question: "What do you get when you cross a snowman with a vampire?",
     answer: "Frostbite!",
     id: 16,
-    gif: "PUT GIF URL HERE",
+    gif: "https://media.tenor.com/FdtoAbHN9gIAAAAd/its-friday-tgif.gif",
     song: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71909225&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
   },
   {
