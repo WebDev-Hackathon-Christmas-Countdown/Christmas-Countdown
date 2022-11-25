@@ -167,14 +167,14 @@ const data = [
     gif: "https://media.tenor.com/2uu6IuEnL48AAAAM/christmas-celebrate.gif",
     song: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/71908033&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
   },
-  {
-    question:
-      "What do you call a bunch of chess players bragging about their games in a hotel lobby?",
-    answer: "Chess nuts boasting in an open foyer!",
-    id: 25,
-    gif: "https://media.tenor.com/UndOVz54fuUAAAAM/christmas-christmas-tree.gif",
-    song: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/72205093&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
-  },
+  // {
+  //   question:
+  //     "What do you call a bunch of chess players bragging about their games in a hotel lobby?",
+  //   answer: "Chess nuts boasting in an open foyer!",
+  //   id: 25,
+  //   gif: "https://media.tenor.com/UndOVz54fuUAAAAM/christmas-christmas-tree.gif",
+  //   song: "https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/72205093&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true",
+  // },
 ];
 
 export default data;
