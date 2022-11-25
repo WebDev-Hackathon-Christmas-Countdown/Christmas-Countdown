@@ -61,7 +61,7 @@ function CountDown() {
         <div className="footer-countdown">
           <h3>until christmas!</h3>
         </div>
-        <NavLink to="/calendar" className="button-enter">
+        <NavLink to="/calendar_windows" className="button-enter">
           Enter the Advent Calendar 2022
         </NavLink>
       </div>
