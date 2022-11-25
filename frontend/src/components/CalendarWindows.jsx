@@ -10,7 +10,7 @@ import DayNumber from "./DayNumber";
 import Footer from "./Footer";
 
 function CalendarWindows() {
-  const nbrSnowflake = 1;
+  const nbrSnowflake = 3000;
   const dateDay = new Date().getDate();
 
   return (
