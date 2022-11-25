@@ -1,6 +1,8 @@
 /* eslint-disable react/no-array-index-key */
 /* eslint-disable no-nested-ternary */
 import React from "react";
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { NavLink } from "react-router-dom";
 import "./CalendarWindows.scss";
 import data from "../assets/data";
 import WindowCard from "./WindowCard";
@@ -45,6 +47,9 @@ function CalendarWindows() {
             />
           )
         )}
+      <NavLink to="/" className="button-back">
+        Back
+      </NavLink>
       {data.map((day) =>
         day.id % 3 === 0 ? (
           <DayNumber

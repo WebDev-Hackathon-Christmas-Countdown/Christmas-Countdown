@@ -88,3 +88,26 @@
 .snowflake:nth-child(6n) {
   filter: blur(1px);
 }
+
+
+.button-back {
+  background-color: rgb(106, 153, 78);
+  color: rgb(242, 232, 207);
+  border: 2px solid rgb(56, 102, 65);
+  z-index: 4;
+  font-size: 20px;
+  padding: 10px 10px;
+  border-radius: 50px;
+  margin: 15px 15px;
+  cursor: pointer;
+  position: fixed;
+  z-index: 4;
+  text-decoration: none;
+  
+}
+
+.button-back:hover {
+  background-color: gray;
+  color: black;
+  
+}
