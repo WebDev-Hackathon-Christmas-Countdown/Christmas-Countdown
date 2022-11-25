@@ -4,10 +4,11 @@ import React from "react";
 import "./CalendarWindows.scss";
 import data from "../assets/data";
 import WindowCard from "./WindowCard";
+import DayNumber from "./DayNumber";
 import Footer from "./Footer";
 
 function CalendarWindows() {
-  const nbrSnowflake = 3000;
+  const nbrSnowflake = 1;
   const dateDay = new Date().getDate();
 
   return (
@@ -44,6 +45,31 @@ function CalendarWindows() {
             />
           )
         )}
+      {data.map((day) =>
+        day.id % 3 === 0 ? (
+          <DayNumber
+            dayId={day.id}
+            grid={`${(day.id / 3) * 2 - 1} / 6 / ${(day.id / 3) * 2} / 7`}
+            key={day.id}
+          />
+        ) : (day.id + 1) % 3 === 0 ? (
+          <DayNumber
+            dayId={day.id}
+            grid={`${((day.id + 1) / 3) * 2 - 1} / 4 / ${
+              ((day.id + 1) / 3) * 2
+            } / 5`}
+            key={day.id}
+          />
+        ) : (
+          <DayNumber
+            dayId={day.id}
+            grid={`${((day.id + 2) / 3) * 2 - 1} / 2 / ${
+              ((day.id + 2) / 3) * 2
+            } / 3`}
+            key={day.id}
+          />
+        )
+      )}
       <Footer />
     </div>
   );
